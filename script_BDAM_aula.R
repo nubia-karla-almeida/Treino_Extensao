@@ -165,7 +165,7 @@ dim(BANCO1_RJ)
 
 
 # Tarefa 4: Exportar o banco de dados BANCO1_RJ com o nome BANCO1_RJ.csv
-
+write.csv(BANCO1_RJ, "BANCO1_RJ.csv",  row.names = FALSE)
 # Ao terminar a Tarefa 4 commit com a mensagem "dados e script - Etapa 1"
 
 
