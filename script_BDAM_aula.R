@@ -10,11 +10,12 @@
 ##### Você deve criar e estar na branch banco-1 antes de inserir os comandos #####
 ##### NÃO altere as linhas de qualquer outra ETAPA do script e nem do cabeçalho ###
 
+# git switch -c banco-1
 # Tarefa 1: Leitura do banco de dados banco 1 = SIM.csv com o nome de dados_bd1
 # Ler o arquivo, verificar estrutura dos dados e dar uma olhada nos dados
 
 # Ao terminar a Tarefa 1 commit com a mensagem " script - tarefa 1" e envie para o repositório Treino_Extensao
-
+# git push -u origin banco-1
 
 # Tarefa 2: Manipulação dos dados
 # Padronizar as categorias VEICULO_CAUSADOR para Carro e Moto e indicar que branco é NA
